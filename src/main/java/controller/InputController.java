@@ -13,8 +13,10 @@ public class InputController {
     private final String INPUT_GAME_NUM_MESSAGE = "시도활 회수는 몇 회인가요?";
     private final String ALPHABET_REGEX = "^[a-zA-Z]*$";
     private final String NUMERIC_REGEX = "^[0-9]*$";
+
     private List<Car> carArrayList = new ArrayList<>();
     private Integer gameNum = 0;
+
 
     public List<Car> getCarArrayList() {
         return this.carArrayList;

@@ -1,10 +1,21 @@
 package model;
 
+import controller.InputController;
+
+import java.util.Comparator;
+
 // 모델 : 데이터를 저장한다.
 public class Car {
 
     private String name = "";
     private String location = "";
+
+    public String getName() {
+        return this.name;
+    }
+    public String getLocation() {
+        return this.location;
+    }
 
     public void proceed(int randomNum) {
         if (4 <= randomNum) {
@@ -28,3 +39,4 @@ public class Car {
         return this.name + " : " + this.location;
     }
 }
+

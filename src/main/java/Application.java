@@ -9,6 +9,7 @@ public class Application {
         inputController.input();
 
         CarView carView = new CarView();
-        carView.game();
+        carView.game(inputController);
+        carView.yieldWinner(inputController);
     }
 }
